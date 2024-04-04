@@ -1,0 +1,27 @@
+{
+    "name": "HoverboardCommunication",
+    "version": "2.0.9",
+    "description": "LVGL driver for Sunton ESP32 Cheap Yellow Display display boards",
+    "keywords": "LVGL Sunton CYD LCD TFT Touch",
+    "build": {
+        "srcDir": "src/",
+        "includeDir": "include/",
+        "flags": [
+            "'-std=c++14'"
+        ]
+    },
+    "export": {
+        "exclude": [
+            "**/.*",
+            "test/**/*",
+            "assets/**/*",
+            "boards/**/*"
+        ]
+    },
+    "license": "GPL",
+    "frameworks": "arduino",
+    "platforms": "arduino",
+    "dependencies": {
+       
+    }
+}
